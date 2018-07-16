@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Containers 101 Workshop on Red Hat | Public Sector</title>
+    <link>http://redhatgov.io/workshops/containers_101/</link>
+    <description>Recent content in Containers 101 Workshop on Red Hat | Public Sector</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://redhatgov.io/workshops/containers_101/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exercise 1.0 - Install buildah, skopeo, and podman</title>
+      <link>http://redhatgov.io/workshops/containers_101/exercise1.0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://redhatgov.io/workshops/containers_101/exercise1.0/</guid>
+      <description>Elevate privileges In order to do any of the steps of this workshop, you will need root privileges. There are two ways of doing this, and which you choose is up to you.
+ The first, and easier, way is to start a root session, with sudo -i:
+ sudo -i   Alternately, you can preface each command that we show you with sudo. For example, to move a file:</description>
+    </item>
+    
+    <item>
+      <title>Exercise 1.1 - Pulling and Running Container Images</title>
+      <link>http://redhatgov.io/workshops/containers_101/exercise1.1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://redhatgov.io/workshops/containers_101/exercise1.1/</guid>
+      <description>Pull Images Use the following command to pull a RHEL image from the Red Hat repository:
+ podman pull command podman pull registry.access.redhat.com/rhel7   An image is identified by a repository name (registry.access.redhat.com), a namespace name (rhel7) and the image name (rhel). You could also add a tag (which defaults to :latest if not entered). The repository name rhel. If the container registry URL is not specified in the pull command, it could result in the retrieval of an image that originates from an untrusted registry.</description>
+    </item>
+    
+    <item>
+      <title>Exercise 1.2 - Working with Container Images</title>
+      <link>http://redhatgov.io/workshops/containers_101/exercise1.2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://redhatgov.io/workshops/containers_101/exercise1.2/</guid>
+      <description>Run Container Images When you execute the podman run command, you essentially spin up and create a new container from a container image. That container consists of the contents of the image, plus features based on any additional options you specify.
+ The command you pass on the podman run command line sees the inside the container as its running environment so, by default, very little can be seen of the host system.</description>
+    </item>
+    
+    <item>
+      <title>Exercise 1.3 - Working with the Dockerfile</title>
+      <link>http://redhatgov.io/workshops/containers_101/exercise1.3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://redhatgov.io/workshops/containers_101/exercise1.3/</guid>
+      <description>Once you understand how images and containers can be created from the command line, you can try building containers in a more permanent way. Building container images from Dockerfile files is by far the preferred way to create docker formatted containers, as compared to modifying running containers and committing them to images.
+ The procedure here involves creating a dockerfile-format file that includes many of the features illustrated earlier:
+   Choosing a base image (i.</description>
+    </item>
+    
+    <item>
+      <title>Exercise 1.4 - Working with a Container Registry</title>
+      <link>http://redhatgov.io/workshops/containers_101/exercise1.4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://redhatgov.io/workshops/containers_101/exercise1.4/</guid>
+      <description>What it is A basic container registry is a stateless, highly scalable server side application that stores and distributes container images. The docker registry is an open-source project offered under the permissive Apache license.
+ Why use it You should use a private container registry if you want to:
+   tightly control where your images are being stored
+  fully own your images distribution pipeline
+  integrate image storage and distribution tightly into your in-house development workflow</description>
+    </item>
+    
+    <item>
+      <title>Setup</title>
+      <link>http://redhatgov.io/workshops/containers_101/setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://redhatgov.io/workshops/containers_101/setup/</guid>
+      <description>Conventions Used in this Workshop When something written is a command that you should type, it is separated in a code block, like this:
+ echo &#34;hello, world!&#34;   And the output will be shown in a block, like this:
+ hello, world!     Introduction to Wetty (Browser-based SSH) This lab provides a quick tour of the browser based SSH client Wetty. To help you get familiar with lab environment along with some key terminology we will use in subsequent lab content.</description>
+    </item>
+    
+    <item>
+      <title>Wrapup</title>
+      <link>http://redhatgov.io/workshops/containers_101/wrapup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://redhatgov.io/workshops/containers_101/wrapup/</guid>
+      <description>Wrap Up, Q&amp;amp;A, and Free Style That wraps up what we have planned for today.
+ What do you think? How can we better help you understand Linux container concepts?
+ For more in depth overview and examples for working with containers and RHEL check out this link.
+ Thank you for your time and participation!
+   </description>
+    </item>
+    
+  </channel>
+</rss>
